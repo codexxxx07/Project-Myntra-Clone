@@ -127,11 +127,17 @@ header{
     width: 250px;
 }
 
+
+
+.footer{
+    background: #e2e7ec;
+}
+
 .footer_container{
     padding: 30px 0px 40px 0px;
-    background: #e2e7ec;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .footer_column{
@@ -155,8 +161,9 @@ header{
 
 .copyright{
     color: #94969f;
-    text-align: end;
+    text-align: center;
     padding: 15px;
+    font-size: 14px;
 }
 
 .dropdown{
